@@ -1,0 +1,147 @@
+body {
+    direction: rtl;
+    background-color:#FBF7E4;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header image{
+    width:100%;
+    position:absolute;
+}
+
+#nav1 ul {
+    list-style: none;
+    /*הגדרת רוחב ומרכוז התפריט לאמצע*/
+    width: 512px; 
+    margin:0 auto;
+}
+
+#topnav ul li {
+    display: inline-block;
+    float: right;
+}
+
+ #topnav ul li a {
+     display: block;
+     background-color: #2f2f33;
+     color: white;
+     text-decoration: none;
+     text-align: center;
+     width: 320px;
+     height: 30px;
+     Padding-top: 10px;
+ }
+
+
+#topnav ul li a:hover {
+    background-color:  #832B32;
+}
+
+#topnav ul li a:active {
+    background-color: #b15d5f;
+}
+
+
+#topnav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+#topnav ul li:hover ul {
+    display: block;
+    width: 120px;
+}
+
+#p_coteret{
+    font-size: 50px;
+    margin-top:100px;
+    text-align:center;
+    padding-top: 200px;
+ 
+}
+
+#h2_coteret{
+    font-size: 15pt;
+    margin-top:100px;
+    margin-right:100px;
+    
+    
+}
+
+.text{
+     font-size: 15pt;
+    margin-top:40px;
+    margin-right:100px;
+    text-align:right;
+    list-style-type:square;
+    line-height: 30px;
+}
+
+article{
+    background-color:  #99b9ae;
+    background-size:contain;
+    margin-top:-60px;
+    width:960px;
+    height:1000px;
+
+}
+
+
+footer{
+    width:960px;
+    height:150px;
+    background-color:#2f2f33;
+    margin: 0 auto;
+}
+
+footer{
+    width:960px;
+    height:200px;
+    background-color:#2f2f33;
+    margin-top:-30px;
+}
+
+
+
+ #icon1{ 
+      padding:50px 300px 0 0 ;
+  }
+
+
+#icon1:hover img {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    -o-transform: scale(0.85);
+    transform: scale(0.85);
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+}
+
+ 
+
+#icon4{ 
+      margin:-53px 600px 0 400px ;
+  }
+
+#icon4:hover img {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    -o-transform: scale(0.85);
+    transform: scale(0.85);
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+}
+
+
+footer p{
+    color:white;
+    text-align:center;
+    padding-top:45px; 
+}
+
